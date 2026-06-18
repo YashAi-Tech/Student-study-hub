@@ -1,0 +1,6 @@
+{
+  "name": "StudyAI",
+  "description": "A smart study assistant that analyzes documents, generates summaries, and creates interactive quizzes using AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

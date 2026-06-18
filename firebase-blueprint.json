@@ -1,0 +1,30 @@
+{
+  "collections": {
+    "users": {
+      "name": "string",
+      "age": "number",
+      "createdAt": "timestamp"
+    },
+    "analyses": {
+      "userId": "string",
+      "fileName": "string",
+      "fileType": "string",
+      "summaryShort": "string",
+      "summaryLong": "string",
+      "keyPoints": "array",
+      "concepts": "array",
+      "difficulty": "string",
+      "readingTime": "string",
+      "createdAt": "timestamp"
+    },
+    "quizzes": {
+      "analysisId": "string",
+      "userId": "string",
+      "questions": "array",
+      "score": "number",
+      "rating": "number",
+      "performance": "string",
+      "createdAt": "timestamp"
+    }
+  }
+}
